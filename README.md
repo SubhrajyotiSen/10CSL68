@@ -14,3 +14,20 @@
  10. [RT clock interval timer using alarmAPI](https://raw.githubusercontent.com/SubhrajyotiSen/10CSL68/master/10.c)      
  11. [Implement SDD for if-then statement](https://raw.githubusercontent.com/SubhrajyotiSen/10CSL68/master/11.c)
  12. [yacc prog. to convert regex to parse tree](https://raw.githubusercontent.com/SubhrajyotiSen/10CSL68/master/12.y)
+
+### Compilation
+You obviously know this already but still
+
+#### For C programs
+
+    cc filename.c
+#### For C++ programs
+
+    g++ filename.cpp
+#### For yacc programs
+
+    yacc -d filename.y
+    cc y.tab.c
+### Execution
+
+    ./a.out arg1 arg2 .. argn
